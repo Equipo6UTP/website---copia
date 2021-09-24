@@ -9,6 +9,8 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700" rel="stylesheet">
+<!-- SE AGREGA TITULO =============================-->
+<title>SERVI-HOME</title>
 </head>
 <body>
 
@@ -41,6 +43,7 @@
 				<div class="text-pageheader">
 					<div class="subtext-image" data-scrollreveal="enter bottom over 1.7s after 0.0s">
 						 Agregar al Carrito
+						 
 					</div>
 				</div>
 			</div>
@@ -54,7 +57,11 @@
 <div class="container toparea">
 	<div class="underlined-title">
 		<div class="editContent">
-			<h1 class="text-center latestitems">Agregar al Carrito</h1>
+			<h1 class="text-center latestitems">Agregar al Carrito   
+				<!-- AGREGAR IMAGEN  SEPT 21 =============================-->  
+				<img width="50" height="50" src="images/carrito de compras.jpg" alt=""></h1> 
+			
+			
 		</div>
 		<div class="wow-hr type_short">
 			<span class="wow-hr-h">
@@ -71,13 +78,16 @@
 				<thead>
 				<tr class="edd_cart_header_row">
 					<th class="edd_cart_item_name">
-						 Item Name
+						<!-- Item Name ===== sept 21=======--> 
+						Servicio Seleccionado
 					</th>
 					<th class="edd_cart_item_price">
-						 Item Price
+						<!-- Item Price ===== sept 21=======--> 
+						Costo del servicio
 					</th>
 					<th class="edd_cart_actions">
-						 Actions
+						<!-- Actions ===== sept 21=======-->
+						Agregar/Eliminar servicio
 					</th>
 				</tr>
 				</thead>
@@ -100,7 +110,9 @@
 				<tfoot>
 				<tr class="edd_cart_footer_row">
 					<th colspan="5">
-						<a class="edd-cart-saving-button edd-submit button " id="edd-save-cart-button" href="#">Save Cart</a>
+						
+						<!-- Item Price ===== sept 21 <a class="edd-cart-saving-button edd-submit button " id="edd-save-cart-button" href="#">Save Cart</a>=======-->
+						<a class="edd-cart-saving-button edd-submit button " id="edd-save-cart-button" href="#">Guardar selección</a>
 					</th>
 				</tr>
 				<tr class="edd_cart_footer_row edd_cart_discount_row" style="display:none;">
@@ -119,32 +131,57 @@
 		<div id="edd_checkout_form_wrap" class="edd_clearfix">
 			<form id="edd_purchase_form" class="edd_form" action="#" method="POST">
 				<fieldset id="edd_checkout_user_info">
-					<legend>Personal Info</legend>
-					<p id="edd-email-wrap">
-						<label class="edd-label" for="edd-email">
-						Email Address <span class="edd-required-indicator">*</span></label>
-						<input class="edd-input required" type="email" name="edd_email" placeholder="Email address" id="edd-email" value="">
-					</p>
+					
+					<!-- CALL TO ACTION sept 21=====<legend>Personal Info</legend>-->
+					<!--<legend>Informacion Personal</legend>-->
+					<legend>
+						<li class="propClone"><a href="formularioCarrito.html">Informacion Personal</a></li>
+					</legend>
 					<p id="edd-first-name-wrap">
-						<label class="edd-label" for="edd-first">
+						
+						
+						<!-- CALL TO ACTION sept 21<label class="edd-label" for="edd-first">
 						First Name <span class="edd-required-indicator">*</span>
+						</label>-->
+						<!--<label class="edd-label" for="edd-first">
+						Nombre <span class="edd-required-indicator">*</span>
 						</label>
+
 						<input class="edd-input required" type="text" name="edd_first" placeholder="First name" id="edd-first" value="" required="">
 					</p>
 					<p id="edd-last-name-wrap">
-						<label class="edd-label" for="edd-last">
-						Last Name </label>
+						 CALL TO ACTION sept 21<label class="edd-label" for="edd-last">
+						Last Name </label>-->
+						<!--<label class="edd-label" for="edd-last">
+						Dirección </label>
 						<input class="edd-input" type="text" name="edd_last" id="edd-last" placeholder="Last name" value="">
+					</p>-->
+					<!--<p id="edd-last-telephone-wrap">--><!-- SE AGREGA EL CAMPO TELEFONO sept 21>-->
+						<!--<label class="edd-label" for="edd-last">
+						Teléfono </label>
+						<input class="edd-input" type="text" name="edd_last" id="edd-last" placeholder="telephone" value="">
 					</p>
+					<p id="edd-email-wrap">-->
+
+						<!-- CALL TO ACTION sept 21<label class="edd-label" for="edd-email">
+						Email Address <span class="edd-required-indicator">*</span></label>-->
+						<!--<label class="edd-label" for="edd-email">
+							Correo Electrónico <span class="edd-required-indicator">*</span></label>
+						<input class="edd-input required" type="email" name="edd_email" placeholder="Email address" id="edd-email" value="">
+					</p>-->
+					
+					
 				</fieldset>
 				<fieldset id="edd_purchase_submit">
 					<p id="edd_final_total_wrap">
-						<strong>Purchase Total:</strong>
+						<!--CALL TO ACTION sept 21> <strong>Purchase Total:</strong>-->
+						<!--<strong>Total Servicio</strong>
 						<span class="edd_cart_amount" data-subtotal="11.99" data-total="11.99">$11.99</span>
 					</p>
 					<input type="hidden" name="edd_action" value="purchase">
-					<input type="hidden" name="edd-gateway" value="manual">
-					<input type="submit" class="edd-submit button" id="edd-purchase-button" name="edd-purchase" value="Purchase">
+					<input type="hidden" name="edd-gateway" value="manual">-->
+					<!--CALL TO ACTION sept 21> <input type="submit" class="edd-submit button" id="edd-purchase-button" name="edd-purchase" value="Purchase">-->
+					<!--<input type="submit" class="edd-submit button" id="edd-purchase-button" name="edd-purchase" value="Pagar">-->
 				</fieldset>
 			</form>
 		</div>
@@ -171,7 +208,8 @@
 	<div class="container">
 		<div class="row">
 			<p class="footernote">
-				 Connect with Scorilo
+				 <!--Connect with Scorilo-->
+				 CONTACTANOS POR LOS SIGUIENTES MEDIOS
 			</p>
 			<ul class="social-iconsfooter">
 				<li><a href="#"><i class="fa fa-phone"></i></a></li>
@@ -181,7 +219,8 @@
 				<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
 			</ul>
 			<p>
-				 &copy; 2017 Your Website Name<br/>
+				 &copy; 2021 SERVI-HOGAR<br/>
+				 <!-- &copy; 2021 Your Website Name<br/>-->
 				Scorilo - Free template by <a href="https://www.wowthemes.net/">WowThemesNet</a>
 			</p>
 		</div>
